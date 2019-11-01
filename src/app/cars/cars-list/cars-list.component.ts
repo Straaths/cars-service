@@ -8,7 +8,8 @@ import { Car } from '../models/car';
 })
 export class CarsListComponent implements OnInit {
 
-  cars : Car[] = [
+  cars : Car[] = [];
+  /*cars : Car[] = [
     {
       id: 1,
       model: 'Mazda Rx7',
@@ -48,7 +49,7 @@ export class CarsListComponent implements OnInit {
       cost: 2800,
       isFullyDamaged: true
     }
-  ];
+  ];*/
   constructor() { }
 
   ngOnInit() {
