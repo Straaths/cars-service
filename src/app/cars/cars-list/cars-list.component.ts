@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Car } from '../models/car';
 
 @Component({
   selector: 'app-cars-list',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarsListComponent implements OnInit {
 
-  cars = [
+  cars : Car[] = [
     {
       id: 1,
       model: 'Mazda Rx7',
